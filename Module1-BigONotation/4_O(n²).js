@@ -33,9 +33,5 @@ function compareAllPairs(arr) {
   
 
   
-
 const numbers = [64, 34, 25, 12, 22, 11, 90];
-console.log(bubbleSort(numbers)); // O(n²), as it uses nested loops to sort the array
-printPairs(numbers); // O(n²), because we have two nested loops
-console.log(hasPairWithSum(numbers, 10)); // O(n²), as we check each pair of elements
-compareAllPairs([1, 2, 3]);
+

@@ -1,12 +1,18 @@
-// O(1) - Constant Time Complexity, 
-//      - Performance is constant and does not depend on the input size.
+/*
+O(1) — Constant Time Complexity
+ 
+Definition:
+The execution time of this function is constant and does not change
+based on the size of the input array.
+ 
+Example 1: Accessing an Array Element
+The function accesses a single element at a fixed index (index 0).
+Array index access is a constant-time operation.
+Whether the array contains 5 elements or 5 million elements,
+the operation takes the same amount of time.
+*/
 
-// Input: The function takes an array and an index as parameters.
-// Operation: It retrieves the element at the specified index in the array. Accessing an element by index is a direct lookup.
-// Complexity: Regardless of the size of myArray, the time to access an element at a given index remains the same (constant time). 
-
-// Accessing an Array Element
-function getElement(array) {
+function getFirstElement(array) {
   return array[0];
 }
 
@@ -16,5 +22,4 @@ const myArray1 = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 const myArray2 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 10, 20, 30, 40, 50, 60, 70, 80, 90];
 
 
-getElement (myArray)   // array length = 5
-
+getFirstElement (myArray)   // array length = 5

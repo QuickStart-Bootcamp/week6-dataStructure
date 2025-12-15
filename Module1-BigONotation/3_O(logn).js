@@ -2,7 +2,7 @@
 //            Algorithm's execution time increases logarithmically. A common example is binary search, where the input size is halved at each step.
 //            Reference: https://www.youtube.com/watch?v=YzT8zDPihmc
 
-
+// Example 1 - Binary Search
 function binarySearch(arr, target) {
     let start = 0;
     let end = arr.length - 1;
@@ -24,11 +24,15 @@ function binarySearch(arr, target) {
     return false;
   }
   
-  // Example:
   let numbers = [1, 3, 5, 7, 9, 11];
   console.log(binarySearch(numbers, 7)); // true
   console.log(binarySearch(numbers, 4)); // false
-  
 
 
+// Example 2 - Finding a value by repeatedly halving a range
+let n = 1000;
 
+while (n > 1) {
+  n = Math.floor(n / 2);
+  console.log(n);
+}

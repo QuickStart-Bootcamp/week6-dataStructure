@@ -1,4 +1,4 @@
-// O(2n) - Exponential time complexity:  The number of operations doubles with 
+// O(2ⁿ) - Exponential time complexity:  The number of operations doubles with 
 //         each additional input, often seen in recursive algorithms that explore all combinations.
 
 // The Fibonacci sequence is a series of numbers where each number is the sum of the two before it.
