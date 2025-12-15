@@ -1,6 +1,10 @@
-// O(n²) - Quadratic Time Complexity
-//         Algorithm grows quadratically with input size. This often occurs with nested loops, 
-//         where each loop iterates over the entire input.
+// O(n²) — Quadratic Time Complexity
+// Definition:
+// The algorithm's execution time grows quadratically with input size n.
+// This usually happens with **nested loops** iterating over the input array.
+// Time Complexity: O(n²) — Two nested loops over n elements
+// Space Complexity: O(1) — No extra memory besides loop counters
+
 // Example 1
 function printPairs(arr) {
   for (let i = 0; i < arr.length; i++) {

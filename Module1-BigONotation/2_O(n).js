@@ -4,14 +4,9 @@
  * Definition:
  * The execution time of the algorithm grows linearly with the input size (n).
  *
- * Explanation:
- * - The algorithm processes each element in the array once.
- * - As the number of elements increases, the number of operations
- *   increases at the same rate.
- *
  * Big-O Analysis:
  * - Time Complexity: O(n)
- * - Space Complexity: O(1)
+ * - Space Complexity: O(1), They all use constant space because they only store a few variables regardless of input size.
  */
 
 const numbers = [1, 270, 2, 8, 4, 250, 0, 90, 100];

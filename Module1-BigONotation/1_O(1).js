@@ -5,11 +5,18 @@ Definition:
 The execution time of this function is constant and does not change
 based on the size of the input array.
  
-Example 1: Accessing an Array Element
-The function accesses a single element at a fixed index (index 0).
-Array index access is a constant-time operation.
-Whether the array contains 5 elements or 5 million elements,
-the operation takes the same amount of time.
+1. Time Complexity (Big O)
+
+The function always accesses the first element of the array (array[0]).
+This operation does not depend on the size of the array.
+Whether the array has 5 elements or 5 million elements, it always takes the same amount of time.
+
+Time Complexity: O(1) — constant time
+
+2. Space Complexity (Big O)
+The function does not create any new data structures or use additional memory that grows with the input.
+It only returns a reference to the first element.
+Space Complexity: O(1) — constant space
 */
 
 function getFirstElement(array) {

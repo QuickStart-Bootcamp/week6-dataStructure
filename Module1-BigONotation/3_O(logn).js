@@ -1,6 +1,7 @@
-// O(log n) - Logarithmic Time Complexity
-//            Algorithm's execution time increases logarithmically. A common example is binary search, where the input size is halved at each step.
-//            Reference: https://www.youtube.com/watch?v=YzT8zDPihmc
+// O(log n) — Logarithmic Time Complexity
+// Definition:
+// The algorithm's execution time grows logarithmically with the input size.
+// A common example is binary search, where the input is halved each step.
 
 // Example 1 - Binary Search
 function binarySearch(arr, target) {
@@ -28,11 +29,3 @@ function binarySearch(arr, target) {
   console.log(binarySearch(numbers, 7)); // true
   console.log(binarySearch(numbers, 4)); // false
 
-
-// Example 2 - Finding a value by repeatedly halving a range
-let n = 1000;
-
-while (n > 1) {
-  n = Math.floor(n / 2);
-  console.log(n);
-}
