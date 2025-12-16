@@ -14,3 +14,14 @@ function nestedLoops(numbers) {
         }
     }
 }
+
+
+function loopsExample () {
+  for (let i =0 ; i < numbers1 ; i++) {
+    console.log (numbers1[i])
+  }
+
+  for (let i =0 ; i < numbers2 ; i++) {
+    console.log (numbers2[i])
+  }
+}

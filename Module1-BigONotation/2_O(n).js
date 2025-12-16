@@ -14,8 +14,8 @@ const numbers = [1, 270, 2, 8, 4, 250, 0, 90, 100];
 
 // Example 1 — Iterate through the array
 // Operation: Each element is accessed exactly once
-for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]);
+for (let i = 0 ; i < numbers.length ; i++) {
+  console.log (numbers[i])
 }
 
 

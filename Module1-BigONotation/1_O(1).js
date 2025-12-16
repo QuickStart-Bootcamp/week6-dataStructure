@@ -20,7 +20,7 @@ Space Complexity: O(1) — constant space
 */
 
 function getFirstElement(array) {
-  return array[0];
+  return array[0]
 }
 
 
