@@ -21,5 +21,4 @@ function countdown(n) {
   countdown(n - 1);         // recursive case: call the same function with n-1
 }
 
-countdown(4)
-
+countDown (5)

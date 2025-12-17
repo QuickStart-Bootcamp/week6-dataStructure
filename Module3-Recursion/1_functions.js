@@ -1,21 +1,25 @@
-function functionA (myNumber) {
+
+function functionA () {
   debugger;
-  console.log (`This is function A ${myNumber}`)
-  functionB (myNumber)
+  console.log (`This is functionA`)
+  functionB()
+  console.log (`Bye from function A`)
 }
 
-function functionB (myNumber) {
-  console.log (`This is function B ${myNumber}`)
-  functionC (myNumber)
+function functionB () {
+  console.log (`This is function B`)
+  functionC()
+  console.log (`Bye from function B`)
 }
 
-function functionC (myNumber) {
-  console.log (`This is function C ${myNumber}`)
-  functionD (myNumber)
+function functionC () {
+  console.log (`This is function C`)
+  functionD ()
+  console.log (`Bye from function C`)
 }
 
-function functionD (myNumber) {
-  console.log (`This is function D ${myNumber}`)
+function functionD () {
+  console.log (`This is function D`)
 }
 
-functionA (12)
+functionA()
