@@ -15,10 +15,9 @@
 */
 
 function countdown(n) {
-  debugger;
-  if (n === 0) return;      // base case: stop when n is 0
+  if (n == 0) return;
   console.log (n)
-  countdown(n - 1);         // recursive case: call the same function with n-1
+  countdown(n-1)
 }
 
-countDown (5)
+countdown (5)

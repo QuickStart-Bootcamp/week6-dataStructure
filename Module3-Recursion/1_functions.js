@@ -1,25 +1,29 @@
 
+
 function functionA () {
-  debugger;
-  console.log (`This is functionA`)
+  debugger
+  console.log ('This is Function A')
   functionB()
-  console.log (`Bye from function A`)
+  console.log ('End of Function A')
 }
+
 
 function functionB () {
-  console.log (`This is function B`)
+  console.log ('This is Function B')
   functionC()
-  console.log (`Bye from function B`)
+  console.log ('End of Function B')
 }
+
 
 function functionC () {
-  console.log (`This is function C`)
-  functionD ()
-  console.log (`Bye from function C`)
+  console.log ('This is Function C')
+  functionD()
+  console.log ('End of Function C')
 }
 
+
 function functionD () {
-  console.log (`This is function D`)
+  console.log ('This is Function D')
 }
 
 functionA()
